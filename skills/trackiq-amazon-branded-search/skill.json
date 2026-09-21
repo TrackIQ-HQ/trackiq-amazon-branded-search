@@ -1,0 +1,36 @@
+{
+  "name": "trackiq-amazon-branded-search",
+  "title": "TrackIQ: Amazon Branded vs. Non-Branded Search",
+  "category": "advertising",
+  "version": "1.0.0",
+  "updated": "2026-09-21",
+  "summary": "Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes \u2014 how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays \u2014 and checks organic share on the brand's own name before calling brand spend defence or waste.",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "list_marketplaces",
+      "get_search_terms",
+      "get_targets",
+      "get_search_query_performance"
+    ],
+    "filesystem": false,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-branded-search",
+  "license": "MIT"
+}

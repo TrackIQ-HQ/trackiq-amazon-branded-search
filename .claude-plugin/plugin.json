@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-branded-search",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Branded vs. Non-Branded Search \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-branded-search",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-branded-search",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "amazon-advertising"
+  ]
+}
