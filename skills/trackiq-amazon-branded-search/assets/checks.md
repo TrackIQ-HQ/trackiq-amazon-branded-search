@@ -17,7 +17,7 @@
 
 ## 3. Is the brand-spend reading fair?
 
-- Every branded query in the defence table has an organic purchase share, or
+- Every branded query in the defence table has a purchase share, or
   says it was unavailable.
 - The recommendation is a test with a success measure, never a cut.
 

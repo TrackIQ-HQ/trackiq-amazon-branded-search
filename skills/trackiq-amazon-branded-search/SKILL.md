@@ -1,6 +1,6 @@
 ---
 name: trackiq-amazon-branded-search
-description: Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes — how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays — and checks organic share on the brand's own name before calling brand spend defence or waste. Use when the user asks about branded vs non-branded, brand vs generic spend, branded search, brand defence, conquesting, competitor keywords, true or non-branded ACOS, or whether ACOS is flattered by brand terms.
+description: Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes — how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays — and checks the brand's purchase share on its own name before calling brand spend defence or waste. Use when the user asks about branded vs non-branded, brand vs generic spend, branded search, brand defence, conquesting, competitor keywords, true or non-branded ACOS, or whether ACOS is flattered by brand terms.
 ---
 
 # Branded vs. Non-Branded Search
@@ -15,7 +15,8 @@ Run it monthly, and before any conversation about "our ACOS is fine".
 ## Requires
 
 - The TrackIQ MCP, for `list_marketplaces`, `get_search_terms`,
-  `get_targets` and `get_search_query_performance`.
+  `get_targets`, `get_search_query_performance`, `get_product_performance`
+  and `get_campaigns`.
 - **The brand's own terms**, from the Brand terms block in account.md — the
   brand name, its misspellings and its product-line names. Ask once.
 - **Competitor brand names**, from the same block. Optional; without them
@@ -51,7 +52,7 @@ paste it into their project instructions once.
    product targeting typed into search, not a generic term.
 4. **Never call brand spend waste on ROAS alone.** Brand terms always return
    well. The question is whether the brand would have won the sale anyway —
-   check the brand's organic purchase share on its own name first
+   check the brand's purchase share on its own name first
    (`assets/method.md` §4), and recommend a controlled test, never a cut.
 5. **The headline is generic ROAS, not blended.** Blended ACOS is shown for
    reference, beside it, labelled.
@@ -64,7 +65,7 @@ paste it into their project instructions once.
 ## What the account will argue with
 
 Some brands bid on their own name because a competitor is conquesting it.
-If the brand's organic share on its own name is low, or a competitor shows up
+If the brand's purchase share on its own name is low, or a competitor shows up
 in the branded queries' sponsored slots, brand spend is defence — say so
 rather than implying it is inflating the numbers for nothing.
 
@@ -93,7 +94,7 @@ outward channel.
 
 ## Version
 
-`trackiq-amazon-branded-search` v1.0.0 (2026-09-21).
+`trackiq-amazon-branded-search` v1.1.0 (2026-09-21).
 
 If the user asks whether this skill is current, fetch
 `https://trackiq.com/skills/registry.json`, compare the `version` field for

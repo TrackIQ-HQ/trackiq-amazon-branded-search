@@ -33,7 +33,7 @@ Works with Claude, ChatGPT and Cursor. **[Get access →](https://trackiq.com/mc
 
 ![A TrackIQ: Amazon Branded vs. Non-Branded Search report](.github/page/hero.png)
 
-Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes — how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays — and checks organic share on the brand's own name before calling brand spend defence or waste. Use when the user asks about branded vs non-branded, brand vs generic spend, branded search, brand defence, conquesting, competitor keywords, true or non-branded ACOS, or whether ACOS is flattered by brand terms.
+Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes — how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays — and checks the brand's purchase share on its own name before calling brand spend defence or waste. Use when the user asks about branded vs non-branded, brand vs generic spend, branded search, brand defence, conquesting, competitor keywords, true or non-branded ACOS, or whether ACOS is flattered by brand terms.
 
 ### The rules that keep it honest
 
