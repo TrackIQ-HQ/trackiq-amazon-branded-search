@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-branded-search",
   "title": "TrackIQ: Amazon Branded vs. Non-Branded Search",
   "category": "advertising",
-  "version": "1.1.0",
-  "updated": "2026-09-21",
+  "version": "1.1.1",
+  "updated": "2026-10-06",
   "summary": "Splits every Amazon Sponsored Products and Sponsored Brands search term into branded, competitor, product-targeting and generic buckets, then shows where the ad money really goes \u2014 how much is spent on shoppers who already typed the brand, what generic search returns once brand is taken out, whether competitor conquesting pays \u2014 and checks the brand's purchase share on its own name before calling brand spend defence or waste.",
   "changelog": "Counts product targeting on the brand's own ASINs as branded, merges near-duplicate queries, stops paging once 97% of channel spend is covered, and reads Search Query Performance week by week as a purchase share covering organic and paid, marking thin weeks.",
   "requires": {
